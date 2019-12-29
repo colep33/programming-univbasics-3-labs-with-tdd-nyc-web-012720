@@ -8,6 +8,7 @@ maxy = ["maxy","is","a","dopey","hobo"]
 def expose(name)
   while name.length > 0 do
   puts name.shift
+  end
 end
 
 expose(coley)
