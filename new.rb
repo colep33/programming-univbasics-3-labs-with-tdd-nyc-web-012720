@@ -1,16 +1,11 @@
-sauced = true
-soarin = false
+divy = ["divy","is","a","sleepy","sloth"]
+coley = ["coley","is","a","darkey","boy"]
+austy = ["austy","is","a","sloppy","slut"]
+robby = ["robby","is","a","awky","dork"]
+petey = ["petey","is","a","russian","commie"]
+maxy = ["maxy","is","a","dopey","hobo"]
 
-def wyd(sauced,soarin)
-  if sauced == true
-    puts "saucy fool"
-  else
-    puts "square boy"
-  end
-  if soarin == true
-    puts "big dope"
-  else
-    puts "square boy"
-  end
+def expose(name)
+  while name.length > 0 do
+  puts name.shift
 end
-wyd(sauced,soarin)
