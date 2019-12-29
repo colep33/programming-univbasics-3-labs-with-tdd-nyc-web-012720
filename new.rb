@@ -1,10 +1,15 @@
-numbers = [1,2,3,4,5,6,7,8,9]
+sauced = true
+soarin = true
 
-def random_output(numbers)
-  while numbers.length > 0 do
-    puts numbers.shift
-    return numbers.shuffle
+def wyd(sauced,soarin)
+  if sauced = true
+    puts "saucy fool"
+  else
+    puts "square boy"
+  end
+  if soarin = true
+    puts "big dope"
+  else
+    puts "square boy"
   end
 end
-
-puts random_output(numbers)
