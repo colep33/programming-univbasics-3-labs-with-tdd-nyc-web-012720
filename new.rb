@@ -9,3 +9,5 @@ def expose(name)
   while name.length > 0 do
   puts name.shift
 end
+
+expose(coley)
