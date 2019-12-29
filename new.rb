@@ -13,3 +13,4 @@ def wyd(sauced,soarin)
     puts "square boy"
   end
 end
+wyd(sauced,soarin)
